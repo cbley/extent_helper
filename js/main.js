@@ -20,7 +20,7 @@ require([
 
         function extentToFeatureSet(extent) {
             return {
-                features: [
+                features: [ {
                     geometry: {
                         rings: [
                             [
@@ -33,7 +33,7 @@ require([
                         ],
                         spatialReference: extent.spatialReference
                     }
-                ]
+                }]
             };
         }
 
