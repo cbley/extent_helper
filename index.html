@@ -36,9 +36,21 @@
 
         <div class="container">
             <div class="row">
-                <div id="map"></div>
+                <div class="span12">
+                    <div id="map"></div>
+                </div>
             </div>
-            <div class="row" style="padding-top:30px">
+            <div class="row" style="padding-top:15px;">
+                <div class="span12">
+                <select name="spatial-referece" id="spatial-reference-select">
+                    <option value="102100" selected="true">Web Mercator</option>
+                    <option value="4326">WGS84</option>
+                </select>
+                </div>
+
+            </div>
+            <div class="row" style="padding-top:8px">
+
                 <div id="extent-container" class="span6">
                     <pre id="extent"></pre>
                 </div>
