@@ -25,9 +25,9 @@ require([
                         rings: [
                             [
                                 [extent.xmin, extent.ymin],
-                                [extent.xmin, extent.ymax],
-                                [extent.xmax, extent.ymax],
                                 [extent.xmax, extent.ymin],
+                                [extent.xmax, extent.ymax],
+                                [extent.xmin, extent.ymax],
                                 [extent.xmin, extent.ymin]
                             ]
                         ],
