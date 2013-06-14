@@ -19,8 +19,8 @@ require([
             spatialReferenceSelect = dom.byId('spatial-reference-select');
 
         function extentToFeatureSet(extent) {
-            return{
-                features: {
+            return {
+                features: [ {
                     geometry: {
                         rings: [
                             [
@@ -33,7 +33,7 @@ require([
                         ],
                         spatialReference: extent.spatialReference
                     }
-                }
+                }]
             };
         }
 
